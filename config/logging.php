@@ -57,6 +57,12 @@ return [
             'ignore_exceptions' => false,
         ],
 
+        'chatbox' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/chatbox.log'),
+            'level' => 'debug',
+        ], 
+        
         'single' => [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
